@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cookies-container {
+    background: linear-gradient(290deg, rgb(18, 138, 126) 0%, rgb(23, 58, 105)100%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    display: flex;
+    width: 25rem;
+    height: 10rem;
+    border-radius: 1.2rem;
+    padding: 1rem;
+    font-family: 'Poppins', sans-serif;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+object {
+    padding: 1rem;
+    width: 25%;
+    overflow: visible;
+}
+
+.text {
+    width: 70%;
+}
+
+.cookies-title {
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+
+.cookies-subtitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: .5rem 0rem;
+}
+
+.cookies-subtitle {
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+button {
+    border-style: none;
+    padding: 0.5rem 1rem;
+    color: brown;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
